@@ -78,8 +78,6 @@ This section populates the book-related tables with at least 10 records each to 
 The data is inserted in an order that respects foreign key dependencies.
 */
 
-USE bookstore;
-
 -- Insert into book_language
 INSERT INTO book_language (language_name) 
 VALUES
@@ -131,7 +129,6 @@ This section includes queries to demonstrate typical operations on the book-rela
 such as listing books, finding books by author, and counting books per language.
 */
 
-USE bookstore;
 
 -- Query 1: List all books with their titles, languages, and publishers
 SELECT b.book_id, b.title, bl.language_name, p.publisher_name, b.price
@@ -182,7 +179,6 @@ Data manipulation query
 This section updates the price of English books and verifies the change with formatted price output.
 */
 
-USE bookstore;
 
 /*
 Explanation:
