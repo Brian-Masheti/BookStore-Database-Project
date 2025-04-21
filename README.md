@@ -1,12 +1,15 @@
 **# BookStore Database Project**
+
 **## Team: The Data Architects**
 - Brian
 - Leah
 - Dennis
+
 **## Project Overview**
 This project involves designing and implementing a MySQL database for a bookstore management system. The database will store information about books, authors, customers, orders, shipping methods, and more.
+
 **## Database Structure**
-![BookStore Database ERD](./ERD.png)
+![BookStore Database ERD](./design/ERD.png)
 *Entity Relationship Diagram showing the relationships between all tables in our BookStore database*
 
 The database includes 15 tables:
@@ -25,14 +28,15 @@ The database includes 15 tables:
 13. shipping_method: Available shipping methods
 14. order_history: Timeline of order status changes
 15. order_status: Possible order statuses
+
 **## Project Timeline**
 - Database Design: April 5, 2025
 - Table Creation: April 8, 2025
 - Test Data: April 10, 2025
 - Documentation: April 12, 2025
 - Final Submission: April 13, 2025
+
 **## Repository Structure**
 - `/design` - Database schema diagrams
 - `/sql` - SQL scripts for creating tables and inserting data
 - `/queries` - Example queries for common operations
-- `/docs` - Additional documentation
